@@ -5,7 +5,7 @@ Host-Link :https://ecommerce-api-17n1.onrender.com
 # E-commerce API
 
 ## Host Link
-The E-commerce API is hosted at: `[https://your-ecommerce-api-host.com](https://ecommerce-api-17n1.onrender.com)`
+The E-commerce API is hosted at: https://ecommerce-api-17n1.onrender.com
 
 ## Overview
 Welcome to the E-commerce API repository! This API serves as the backend for managing various aspects of an e-commerce platform. It provides a set of endpoints that allow you to interact with products, orders, users, and more.
@@ -14,32 +14,12 @@ Welcome to the E-commerce API repository! This API serves as the backend for man
 Below are the main routes and their descriptions for this API:
 
 ### Products
-- **GET /products:** Retrieve a list of all products.
-- **GET /products/:id:** Get details of a specific product by ID.
-- **POST /products:** Create a new product.
-- **PUT /products/:id:** Update an existing product.
-- **DELETE /products/:id:** Delete a product.
+- **GET /products :** Retrieve a list of all products.
+- **POST /products/create :** Create a new product.
+- **PUT /products/:id/update_quantity/?number=10 :** Update an existing product.
+- **DELETE /products/:id :** Delete a product.
 
-### Orders
-- **GET /orders:** Retrieve a list of all orders.
-- **GET /orders/:id:** Get details of a specific order by ID.
-- **POST /orders:** Create a new order.
-- **PUT /orders/:id:** Update an existing order.
-- **DELETE /orders/:id:** Delete an order.
 
-### Users
-- **POST /signup:** Register a new user.
-- **POST /login:** Authenticate a user.
-- **GET /users/:id:** Get user details.
-- **PUT /users/:id:** Update user information.
-
-### Cart
-- **GET /cart/:userId:** Retrieve the shopping cart for a user.
-- **POST /cart/:userId/add/:productId:** Add a product to the user's cart.
-- **POST /cart/:userId/remove/:productId:** Remove a product from the user's cart.
-
-### Payments
-- **POST /payments/charge:** Process a payment for an order.
 
 ## Project Structure
 The project is organized as follows:
