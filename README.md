@@ -35,8 +35,6 @@ The project is organized as follows:
 ## Getting Started
 To set up and run the API on your local machine, follow the instructions in the [Installation](#installation) section of this README.
 
-## Documentation
-For detailed documentation on how to use the API endpoints and authentication, refer to the API documentation located at `https://your-ecommerce-api-host.com/docs` or the [API documentation](api-documentation.md) file in this repository.
 
 ## Contributing
 We welcome contributions to this project. If you'd like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
