@@ -9,9 +9,7 @@ Below are the main routes and their descriptions for this API:
 
 ## Installation
 
-1. **Prerequisites:** Ensure you have Node.js (version X.X.X) and npm (version X.X.X) installed.
-
-2. **Clone the Repository:**
+1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/yourusername/your-project.git
