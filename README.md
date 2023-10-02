@@ -1,17 +1,33 @@
 # Task-Management-API
 
-Host-Link :https://ecommerce-api-17n1.onrender.com
-
-# Task-Management API
-
-## Host Link
-The Task-Management API is hosted at: https://ecommerce-api-17n1.onrender.com
-
 ## Overview
 Welcome to the Task-Management API repository! This API serves as the backend for managing various aspects of task. It provides a set of endpoints that allow you to interact with tasks, users, status, and more.
 
 ## Routes
 Below are the main routes and their descriptions for this API:
+
+
+## Installation
+
+1. **Prerequisites:** Ensure you have Node.js (version X.X.X) and npm (version X.X.X) installed.
+
+2. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/your-project.git
+   cd your-project
+
+# Install Dependencies:
+npm install
+
+# Usage
+Configuration: If needed, configure the project (e.g., environment variables, settings).
+
+# Run the Project:
+npm start
+
+Access the Application: Visit http://localhost:8000 in your web browser to interact with the application.
+
 
 ### Products
 - **GET /tasks/tasks :** Retrieve a list of all tasks relates to a user.
