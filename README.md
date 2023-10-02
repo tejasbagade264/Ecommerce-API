@@ -14,10 +14,10 @@ Welcome to the E-commerce API repository! This API serves as the backend for man
 Below are the main routes and their descriptions for this API:
 
 ### Products
-- **GET /products :** Retrieve a list of all products.
-- **POST /products/create :** Create a new product.
-- **PUT /products/:id/update_quantity/?number=10 :** Update an existing product.
-- **DELETE /products/:id :** Delete a product.
+- **GET /tasks/tasks :** Retrieve a list of all tasks relates to a user.
+- **POST /task/create :** Create a new task.
+- **PUT /tasks/update/:id :** Update an existing task.
+- **DELETE /tasks/delete/:id :** Delete a product.
 
 
 
