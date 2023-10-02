@@ -1,14 +1,14 @@
-# Ecommerce-API
+# Task-Management-API
 
 Host-Link :https://ecommerce-api-17n1.onrender.com
 
-# E-commerce API
+# Task-Management API
 
 ## Host Link
-The E-commerce API is hosted at: https://ecommerce-api-17n1.onrender.com
+The Task-Management API is hosted at: https://ecommerce-api-17n1.onrender.com
 
 ## Overview
-Welcome to the E-commerce API repository! This API serves as the backend for managing various aspects of an e-commerce platform. It provides a set of endpoints that allow you to interact with products, orders, users, and more.
+Welcome to the Task-Management API repository! This API serves as the backend for managing various aspects of task. It provides a set of endpoints that allow you to interact with tasks, users, status, and more.
 
 ## Routes
 Below are the main routes and their descriptions for this API:
