@@ -1,11 +1,9 @@
-const express=require('express');
-const router= express.Router();
+const express = require('express');
+const router = express.Router();
 
-const APIcontroller=require('../controllers/api_controller');
+router.use('/users', require('./User'));
 
-router.get('/product',APIcontroller.product);
-router.post('/product/create', APIcontroller.create);
-router.delete('/product/:id', APIcontroller.delete);
-router.put('/products/:id/update_quantity/:number', APIcontroller.update);
+router.use('/tasks', require('./task'));
+
 
 module.exports = router;

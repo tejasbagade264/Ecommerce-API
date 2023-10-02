@@ -1,27 +1,34 @@
-const express= require('express');
-const app=express();
+// Import the required modules
+const express = require('express');
+const bodyParser = require('body-parser');
+const db = require('./config/mongoose');
+const passport=require('passport');
+const passportJWT = require('./config/passport-jwt-strategy');
+
+
+
+// Create an Express application
+const app = express();
+
+// Start the server on a specific port 
 const port = 8000;
-const mongoose = require('mongoose');
-const Product = require('./models/productModel')
 
-app.use(express.json());
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }))
 
 
-app.get('/', (req, res) =>{
-
-    res.send('hello,  Ecommerce API  ');
-});
-
+// parse application/json
+app.use(bodyParser.json())
 
 app.use('/', require('./routes'));
+  
+app.listen(port, (err) => {
+    if(err){
 
-mongoose.connect('mongodb+srv://tejasbagade1512:tejas123@devdatabase.u2cpw0f.mongodb.net/Node-API?retryWrites=true&w=majority')
-    .then(() => {
-        console.log('Connected to the database');
-        app.listen(port, () => {
-            console.log(`Server is running on port ${port}`)
-        });
-    })
-    .catch((error) => {
-        console.log('Error in connecting to the database:', error);
-    });
+console.log(`Server is giving an error : ${err} `);
+    }
+    else{
+  console.log(`Server is running on port : ${port}`);
+    }
+});
+
